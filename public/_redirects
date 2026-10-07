@@ -1,0 +1,14 @@
+# Old WordPress URLs -> new pages (keeps existing Google results and bookmarks working)
+/about-us/*                  /about          301
+/contact-info/*              /visit          301
+/store-hours/*               /visit          301
+/social-media/*              /visit          301
+/free-pull-list-service/*    /pull-list      301
+/new-releases/*              /new-comics     301
+/previews-final-orders-due/* /new-comics     301
+/services-offered/*          /services       301
+/photo-gallery/*             /gallery        301
+/upcoming-events/*           /events         301
+
+# Single-page app fallback
+/*    /index.html   200
