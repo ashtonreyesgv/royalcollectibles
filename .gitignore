@@ -2,4 +2,19 @@ node_modules
 dist
 .DS_Store
 *.local
-.claude/
+
+# Dependencies, build output, secrets and OS files
+node_modules/
+dist/
+.vercel
+.env
+.env.*
+!.env.example
+Thumbs.db
+
+# Notes, research and AI agent files: kept on this computer, never pushed
+AGENTS.md
+AGENTS-TEMPLATE/
+RESEARCH.md
+/context/
+/Context/
